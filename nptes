@@ -1,0 +1,51 @@
+create package.json
+npm init -y
+
+downdload packages 
+npm i express ejs
+
+create app.js 
+initialize express 
+create /route
+
+add script for npx nodemon app.js as start server
+
+setup ejs
+create views folder in root directry
+create index.ejs file 
+render index.ejs file in app.js
+
+create routes folder in root directory
+create user.router.js file 
+import the router into app.js
+all the routes of the user will be create in user.router.js file 
+
+
+steps for user registeration
+-create 2 /register routes one for "get" and the other one for "post"
+-add forntend (used tailwind and flowbite)
+-make sure your form tag must have these
+ -action="/register"
+ -method="post"
+ -all the inputs must have name parameter
+-add middleware that supports res.body
+-add validations using express validator
+
+DB connection
+-install mongoose
+-create config folder and add db.js file init  abd use mogoose to connect with db 
+-create schema into the file user.model.js into models folder  
+
+install: npm i bcrypt
+
+
+HOW TO USE ENV:
+add .env file to the root directory for keeping the secrets
+npm i dotenv
+setup in app.js
+
+
+
+
+
+
