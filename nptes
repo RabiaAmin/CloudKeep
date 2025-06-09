@@ -36,7 +36,24 @@ DB connection
 -create config folder and add db.js file init  abd use mogoose to connect with db 
 -create schema into the file user.model.js into models folder  
 
-install: npm i bcrypt
+install: npm i bcrypt for password security 
+
+
+steps for user login 
+-create 2 /login routes 
+-add fronted 
+-same as register 
+-create token by using jwt 
+-save token into cookie (by using cookie-parser)
+
+-create home page 
+-create router page for home page 
+-start frontend setup for upload files 
+
+
+setup for appwrite 
+npm install node-appwrite
+
 
 
 HOW TO USE ENV:
