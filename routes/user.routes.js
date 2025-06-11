@@ -79,7 +79,8 @@ router.post('/login',
 
         res.cookie('token',token)
 
-        res.send('user Logged In');
+             // ✅ Redirect to home page
+        res.redirect('/home');
 })
 
 

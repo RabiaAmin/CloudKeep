@@ -53,6 +53,17 @@ steps for user login
 
 setup for appwrite 
 npm install node-appwrite
+create appwrite.config.js file for appwrite connection
+create multer.config.js file for setup temp file save
+create /upload route for uploading file on appwrite 
+create /download route form downloading files from appwrite
+create authmiddleware to authenticate user for fetching relevent data 
+create file schema
+
+-render data from routes to home.ejs file
+-use public folder for image rendering 
+ 
+
 
 
 
